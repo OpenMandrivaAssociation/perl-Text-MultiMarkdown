@@ -1,9 +1,9 @@
 %define upstream_name    Text-MultiMarkdown
-%define upstream_version 1.000033
+%define upstream_version 1.000034
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Convert MultiMarkdown syntax to (X)HTML
 License:    GPL+ or Artistic
