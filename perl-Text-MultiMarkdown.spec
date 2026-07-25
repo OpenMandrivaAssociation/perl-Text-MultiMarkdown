@@ -1,15 +1,15 @@
 %define upstream_name    Text-MultiMarkdown
-%define upstream_version 1.000034
+%define upstream_version 1.005
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Convert MultiMarkdown syntax to (X)HTML
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Text/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/briandfoy/text-multimarkdown
+Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Text-MultiMarkdown-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
